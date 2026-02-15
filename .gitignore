@@ -1,0 +1,32 @@
+# Build / runtime
+__pycache__/
+*.py[cod]
+*.pyo
+*.pth
+*.npy
+*.model
+
+# Output and processed data
+output/
+output_bak/
+processed/
+tmp/
+logs/
+linker_datas/
+data/
+data_rar/
+AF_18_18_88/
+AF_18_18_88_1115_new/
+analysis_results/
+experiments/
+PCA32_test/
+backup/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional: uncomment if data dir has large or sensitive files
+# data/*.xlsx
