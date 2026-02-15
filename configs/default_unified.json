@@ -1,1 +1,27 @@
-{"mode": "train_and_predict", "train": {"file_path": "./data/linker_data_370_NPP.xlsx", "aa_col": "Fusion protein", "ac_col": "Normalized_Protein_Production", "output_dir": "./output", "batch_size": 128, "device": "cuda", "plm_model": "path/to/plm_model", "pla_dim": 32, "ca_dim": 32, "timestamp": null}, "predict": {"file_path": "./data/linker_data_20_NPP.xlsx", "aa_col": "Fusion protein", "ac_col": "Normalized_Protein_Production", "output_name": "linker_data_15", "model_ac_col": null, "enabled": true}, "log": {"save_to_csv": true, "log_file": "logs/model_results_log.csv"}}
+{
+  "mode": "train_and_predict",
+  "train": {
+    "file_path": "./data/your_train_data.xlsx",
+    "aa_col": "sequence_column_name",
+    "ac_col": "activity_column_name",
+    "output_dir": "./output",
+    "batch_size": 128,
+    "device": "cuda",
+    "plm_model": "path/to/your_plm_model",
+    "pla_dim": 32,
+    "ca_dim": 32,
+    "timestamp": null
+  },
+  "predict": {
+    "file_path": "./data/your_predict_data.xlsx",
+    "aa_col": "sequence_column_name",
+    "ac_col": "activity_column_name",
+    "output_name": "predict_output",
+    "model_ac_col": null,
+    "enabled": true
+  },
+  "log": {
+    "save_to_csv": true,
+    "log_file": "logs/model_results_log.csv"
+  }
+}
