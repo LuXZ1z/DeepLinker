@@ -22,6 +22,9 @@ experiments/
 PCA32_test/
 backup/
 
+# Local workflow (do not publish)
+PUSH_AND_DEFAULT_BRANCH.md
+
 # IDE
 .idea/
 .vscode/
