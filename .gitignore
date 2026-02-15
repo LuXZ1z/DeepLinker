@@ -22,6 +22,15 @@ experiments/
 PCA32_test/
 backup/
 
+# Figures / outputs (do not publish)
+figs/
+figures_misc/
+
+# Local config with private paths (use default_unified.json only)
+configs/input.json
+configs/input_predict.json
+configs/input_ca_pca.json
+
 # Local workflow (do not publish)
 PUSH_AND_DEFAULT_BRANCH.md
 
